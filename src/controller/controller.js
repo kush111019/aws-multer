@@ -115,7 +115,7 @@ let deletequery = async function (req, res) {
         res.status(500).send(err.message)
     }
 }
-module.exports.updateblog=updateblog;
+//module.exports.updateblog=updateblog;
 module.exports.Author = Author;
 module.exports.blog = blog;
 module.exports.getblog = getblog;
